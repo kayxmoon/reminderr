@@ -1,0 +1,81 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: gray;
+}
+
+
+.pimg1 {
+    background-image: url(https://www.thelist.com/img/gallery/heres-what-the-august-22-full-moon-means-for-fire-signs/l-intro-1629406037.jpg);
+    min-height: 100%;
+
+
+}
+
+.pimg2 {
+    background-image: url(https://w0.peakpx.com/wallpaper/86/592/HD-wallpaper-beautiful-night-scenery-galaxy-10.jpg);
+    min-height: 400px;
+
+
+}
+
+.pimg3 {
+    background-image: url(https://www.shutterstock.com/image-photo/tarnita-lake-romania-night-beautiful-260nw-1749553670.jpg);
+    min-height: 400px;
+
+
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    color: white;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text-bg {
+    background-color: #121730;
+    padding: 20px;
+    color: white;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light {
+    background-color: #848ebd;
+    color: white;
+}
+
+.section-dark {
+    background-color: #848ebd;
+    color: white;
+}
+
+
+@media (max-width: 700px) {
+    .ptext {
+        font-size: 15px;
+    }
+}
